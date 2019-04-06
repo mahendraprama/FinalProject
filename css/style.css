@@ -1,0 +1,96 @@
+.wrapper{
+	width: 100%;
+	max-width: 1600px;;
+	margin: auto;
+
+}
+.view {
+    background: url("../img/calis.jpg")no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    position: fixed;	
+  left: 0;
+  top: 0;
+  width: 100%;
+	z-index: 9999;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.bg-content{
+	margin: 0;
+}
+.content{
+	width:350px;
+	height: 350px;
+	background-color: #353b48;
+	float: left;
+	margin: 23px 40px; 
+}
+.content img{
+	width: 100%;
+}
+.content p{
+	text-align: center;
+	color: #fff;
+	padding: 20px 10px;
+	line-height: 1.7;
+}
+.content h3{
+	color: #fff;
+	text-align: center;
+}
+
+.content h4{
+	color: #fff;
+	text-align: center;
+}
+
+/* */
+.section-heading {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px; }
+  .section-heading h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(to right, #b3e258, #39b143);
+    background: linear-gradient(to right, #b3e258, #39b143);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .section-heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 767px) {
+      .section-heading h2 {
+        font-size: 24px; } }
+  .section-heading.white h2 {
+    color: #ffffff; }
+.bg-footer{
+	width: 100%;
+	background-color: #000;
+	clear: both;	
+}
+.footer{
+	color: #fff;
+	height: 75px;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+.judul h1{
+	text-align: center;
+}
